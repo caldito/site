@@ -1,6 +1,5 @@
 ---
 title: prueba
-author: Open Sour3
 date: '2024-04-14'
 
 ---
