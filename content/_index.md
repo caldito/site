@@ -3,17 +3,20 @@ title: Home
 description: "The personal writings and expressions of Grayfox, otherwise known as you too and everyone else. It is a loving and silly place."
 ---
 
-
-## Welcome, friend
 <img src="/images/partywizard.gif">
 
+# Pablo Gómez-Caldito
+I love building tools, products and infrastructure using software. Currently working as Senior DevOps Engineer. More [about me](/about).
 
-Born in [The Abyss](https://en.wikipedia.org/wiki/Edmonton), **Grayfox** - also known as Zerkle Snorp - has spent over two decades fiddling with things on the Internet. Today he does nothing, so stop asking.
+My OSS work is available on <a href="https://github.com/caldito" target="_blank">GitHub</a>.
 
-Their greatest joys are darkness and its quietudes.
-```
-code test
-```
-
-
+## Featured projects
+- <a href="https://github.com/caldito/soup" target="_blank">soup</a> -
+    GitOps continuous deployment and management tool for Kubernetes focused on simplicity
+- <a href="https://github.com/caldito/mimcas" target="_blank">mimcas</a> -
+        Multithreaded in-memory cache server built with Go
+- <a href="https://github.com/idealista/cookiecutter-ansible-role" target="_blank">cookiecutter-ansible-role</a> -
+        Tool for creating full featured ansible roles in minutes
+- <a href="https://github.com/caldito/writeups" target="_blank">writeups</a> -
+        Walkthroughs of 'boot to root' CTF challenges
 

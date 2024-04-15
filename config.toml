@@ -38,11 +38,18 @@ weight = 1
 name = "about"
 url = "/about"
 weight = 2
+[[menu.main]]
+name = "resume"
+url = "/docs/resume.pdf"
+weight = 3
 [[menu.feed]]
 name = "rss"
 url = "/index.xml"
+[[menu.feed]]
+name = "github"
+url = "https://github.com/caldito"
 
 [params]
 custom_css = ["css/theme-override.css"]
 description = "A simple, minimal blog for those who love text."
-footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Keybase](https://keybase.io/goodroot)"
+footer = "[Source](https://github.com/caldito/site)"
