@@ -8,7 +8,7 @@ slug: value-creation-framework
 
 The main goal of someone working in the technology space (or any knowledge worker to be fair) is value creation. Either to the organization you are in or to the market. So I'll explain how I'm currently thinking about it.
 
-## A framework
+## The framework
 
 In my opinion, the process of value creation has the following stages:
 
