@@ -6,26 +6,17 @@
     <description>Recent content in Posts on caldito.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Stuff I use in my day to day to survive and hopefully thrive</title>
-      <link>/post/2024/04/14/stuff-i-use-in-my-day-to-day-to-survive-and-hopefully-thrive/</link>
-      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <title>A framework for creating value</title>
+      <link>/post/2024/04/30/value-creation-framework/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/post/2024/04/14/stuff-i-use-in-my-day-to-day-to-survive-and-hopefully-thrive/</guid>
-      <description>Naturally I&amp;rsquo;m a bit of a disaster so I rely on systems to get me through my day.
-There are a bunch of habits which help me set
-Natural protocols  Cold shower: Feels horrible, but it wakes me up. Morning walk: I really only start the day once Gym: Meditation: When I do it Not using my phone during my morning routine  Tools  Calendar Work notebook Personal notebook Notion  </description>
-    </item>
-    
-    <item>
-      <title>Juicy Code</title>
-      <link>/post/2012/01/23/juicy-code/</link>
-      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2012/01/23/juicy-code/</guid>
-      <description>Check out this JUICY! code:
-def with_value_from_database(value) self.class.from_database(name, value, type) end def with_cast_value(value) self.class.with_cast_value(name, value, type) end def with_type(type) if changed_in_place? with_value_from_user(value).with_type(type) else self.class.new(name, value_before_type_cast, type, original_attribute) end end </description>
+      <guid>/post/2024/04/30/value-creation-framework/</guid>
+      <description>The main goal of someone working in the technology space (or any knowledge worker to be fair) is value creation. Either to the organization you are in or to the market. So I&amp;rsquo;ll explain how I&amp;rsquo;m currently thinking about it.
+A framework In my opinion, the process of value creation has the following stages:
+  Step 1: Learning
+Learning is food for our knowledge and skills, which are needed in the next 2 steps.</description>
     </item>
     
   </channel>

@@ -5,7 +5,20 @@
     <link>/</link>
     <description>Recent content in Home on caldito.me</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A framework for creating value</title>
+      <link>/post/2024/04/30/value-creation-framework/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2024/04/30/value-creation-framework/</guid>
+      <description>The main goal of someone working in the technology space (or any knowledge worker to be fair) is value creation. Either to the organization you are in or to the market. So I&amp;rsquo;ll explain how I&amp;rsquo;m currently thinking about it.
+A framework In my opinion, the process of value creation has the following stages:
+  Step 1: Learning
+Learning is food for our knowledge and skills, which are needed in the next 2 steps.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>/about/</link>
@@ -14,8 +27,7 @@
       <guid>/about/</guid>
       <description>I&amp;rsquo;m Pablo Gómez-Caldito, I love building tools, products and infrastructure using software. My work experience is mainly in SRE, increasing the reliability of online services and implementing the DevOps philosophy in organizations. I also release Open-Source Software projects and have fun learning about Information Security.
 Currently working as Senior DevOps Engineer at Streamsets and previously at idealista. You can check my resume to learn more.
-Contact Email pablo@caldito.me
-Other  GitHub Twitter LinkedIn.</description>
+Contact Email My email is pablo[at]caldito[dot]me</description>
     </item>
     
   </channel>

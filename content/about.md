@@ -10,7 +10,7 @@ Currently working as Senior DevOps Engineer at <a href="https://streamsets.com" 
 ## Contact
 
 ### Email
-<a href="mailto:pablo@caldito.me" target="_blank">pablo@caldito.me</a>
+My email is pablo[at]caldito[dot]me
 
 ### Other
 - <a href="https://github.com/caldito" target="_blank">GitHub</a>
