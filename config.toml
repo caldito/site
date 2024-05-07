@@ -24,7 +24,7 @@ style = "monokai"
 tabWidth = 4
 
 [permalinks]
-post = "/post/:year/:month/:day/:slug/"
+post = "/post/:slug/"
 
 #[[menu.main]]
 #name = "Categories"
@@ -51,5 +51,5 @@ url = "https://github.com/caldito"
 
 [params]
 custom_css = ["css/theme-override.css"]
-description = "A simple, minimal blog for those who love text."
+description = "caldito's site"
 footer = "[Source](https://github.com/caldito/site)"
