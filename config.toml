@@ -51,5 +51,5 @@ url = "https://github.com/caldito"
 
 [params]
 custom_css = ["css/theme-override.css"]
-description = "caldito's site"
-footer = "[Source](https://github.com/caldito/site)"
+description = "Caldito's site"
+footer = "© 2024 Caldito [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
