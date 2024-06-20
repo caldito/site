@@ -35,13 +35,17 @@ name = "writing"
 url = "/post/"
 weight = 1
 [[menu.main]]
+name = "talks"
+url = "/talks"
+weight = 2
+[[menu.main]]
 name = "about"
 url = "/about"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "resume"
 url = "/docs/resume.pdf"
-weight = 3
+weight = 4
 [[menu.feed]]
 name = "rss"
 url = "/index.xml"
