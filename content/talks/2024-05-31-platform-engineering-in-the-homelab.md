@@ -1,11 +1,18 @@
 ---
-title: Selfhosting and platform engineering
-date: '2024-05-14'
+title: Platform Engineering in the Homelab
+date: '2024-05-31'
 categories:
-draft: true
+draft: false
 tags:
-slug: self-hosting-and-platform-engineering
+slug: platform-engineering-in-the-homelab
 ---
+
+# Resources
+- <a href="https://www.youtube.com/live/5i9chZj3bRo?feature=shared" target="_blank">Recording</a>
+- [Slides](/docs/platform-engineering-in-the-homelab.pdf)
+
+# Notes:
+Disclaimer: this is just a quick outline I used for presenting and may contain errors
 
 ## What is self-hosting and why to do it
 Self-hosting is running your own services for personal use.
@@ -32,27 +39,27 @@ Example services:
 
 
 
-For these things you can either use the cloud or build a homelab. I advocate for a homelab if it's for personal use because in that way you truly own the infrastructure and also it's cheaper in the long run.
+For these things you can either use the cloud or build a homelab. I advocate for a homelab if it's for personal use because that way you truly own the infrastructure while also it's cheaper in the long run (depending on the use case).
 
-There are some use cases where selfhosting is not the ideal solution. The main ones that comes to mind are those who require huge amounts of compute. Like doing some serious password cracking or training/finetunning LLMs.
+There are some use cases where self-hosting is not the ideal solution. The main ones that comes to mind are those who require huge amounts of compute. Like doing some serious password cracking or training/finetunning LLMs.
 
 
 ## Things you need for a basic yet reliable homelab
-You don't need anything super crazy to get going. But it's better to do it right because these are services you will depend on it.
+You don't need anything super crazy to get going. But it's better to do it right because these are services you will depend on.
 
 
 ### Hardware
-- Somewhere to run apps: Depending on your scope you can got from an old repurposed laptop with Linux installed to a full fledge hypervisor like Proxmox.
+- Somewhere to run apps: Depending on your scope you can got from an old repurposed laptop with Linux installed to rackmounted server with crazy specs.
 - Somewhere to store data reliably: the obvious choice is to get a NAS. But they come in various shape and forms. The basic question is if you want something prebuilt or to bulid one yourself.
 - Appropiate networking gear
 
 ### Supporting services and practices
-The services providing featurq e to the end user are the main goal. But for having a good uptime and a good time operating them you need some supporting services:
+The services providing features to the end user are the main goal. But for having a good uptime using them and a good time operating them you'll need some supporting services:
 - CI/CD
 - Monitoring
 - Networking
-- Security: auth and not exposing to the exterior
-- Backups (3-2-1)
+- Security: auth and not exposing to the exterior, at the very least. Connect from outside with a VPN like wireguard
+- Backups (3-2-1 strategy)
 
 ## Actions you need to do to operate a homelab
 - Deploy infra and services
@@ -93,8 +100,6 @@ Bear in mind that is okay if not everything is 100% automated or standardized. I
 
 
 ## Demo and showing around
-
-
 Show around dashy, proxmox and truenas.
 
 Show ansible playbooks and roles.

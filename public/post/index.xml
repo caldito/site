@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on caldito.me</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on caldito.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A framework for creating value</title>
+      <link>/post/value-creation-framework/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/post/value-creation-framework/</guid>
+      <description>The main goal of someone working in the technology space (or any knowledge worker to be fair) is value creation, either to the organization you are in or to the market. So I&amp;rsquo;ll explain how I&amp;rsquo;m currently thinking about it.
+The framework In my opinion, the process of value creation has the following stages:
+  Step 1: Learning
+Learning is food for our knowledge and skills, which are needed in the next 2 steps.</description>
+    </item>
+    
+  </channel>
+</rss>
