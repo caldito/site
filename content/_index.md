@@ -3,8 +3,6 @@ title: Home
 description: "caldito's site"
 ---
 
-<img src="/images/partywizard.gif">
-
 # Pablo Gómez-Caldito
 I love building tools, products and infrastructure using software. Currently working as Senior DevOps Engineer. More [about me](/about).
 
