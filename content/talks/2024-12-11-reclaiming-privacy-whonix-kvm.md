@@ -7,12 +7,12 @@ tags:
 slug: reclaiming-privacy-whonix-kvm
 ---
 
-# Resources
+## Resources
 - [Notes for following the workshop](https://github.com/caldito/whonix-kvm-workshop)
 - [Slides](/docs/reclaiming-privacy-whonix-kvm-slides.pdf)
 
-# Notes:
-Disclaimer: this is just a quick outline I used for presenting and may contain errors
+## Notes:
+Disclaimer: this is just a quick outline I used for presenting and may contain errors   
 
 ### 1. Introduction
 ### 2. Virtualization Platforms: Hypervisors and emulators

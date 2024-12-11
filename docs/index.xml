@@ -4,44 +4,37 @@
     <title>Home on caldito.me</title>
     <link>/</link>
     <description>Recent content in Home on caldito.me</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(Workshop) Reclaiming privacy in the web with Whonix in KVM</title>
+      <link>/talks/reclaiming-privacy-whonix-kvm/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/talks/reclaiming-privacy-whonix-kvm/</guid>
+      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/caldito/whonix-kvm-workshop&#34;&gt;Notes for following the workshop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/docs/reclaiming-privacy-whonix-kvm-slides.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes:&lt;/h2&gt;&#xA;&lt;p&gt;Disclaimer: this is just a quick outline I used for presenting and may contain errors&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h3&gt;&#xA;&lt;h3 id=&#34;2-virtualization-platforms-hypervisors-and-emulators&#34;&gt;2. Virtualization Platforms: Hypervisors and emulators&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hypervisors: hardware virtualization&lt;/strong&gt;&#xA;Virtualize only the Operating system on top of the original hardware&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Type&lt;/li&gt;&#xA;&lt;li&gt;FOSS or not&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Emulators&lt;/strong&gt;&#xA;Virtualize the hardware architecture.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;QEMU quick emulator. Open source and 7 different architectures&lt;/li&gt;&#xA;&lt;li&gt;Useful for gaming and virtualising legacy hardware&lt;/li&gt;&#xA;&lt;li&gt;Rosetta: very relevant in apple devices with ARM architecture. M1, M2, M3, M4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-qemu-and-kvm&#34;&gt;3. QEMU and KVM&lt;/h3&gt;&#xA;&lt;p&gt;Free and open source virtualization platform&#xA;KVM -&amp;gt; manages CPU, memory and disk&#xA;Qemu -&amp;gt; Emulates hardware devices: display, network interfaces, peripherals&amp;hellip;&#xA;QEMU/KVM&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Platform Engineering in the Homelab</title>
       <link>/talks/platform-engineering-in-the-homelab/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>/talks/platform-engineering-in-the-homelab/</guid>
-      <description>Resources  Recording Slides  Notes: Disclaimer: this is just a quick outline I used for presenting and may contain errors
-What is self-hosting and why to do it Self-hosting is running your own services for personal use.
-Why:
- Your data is yours It&amp;rsquo;s a fun hobby if you are a nerd Learn about service operations or improving your skills  Example services:
- Photos (Immich) Files (Owncloud/nextcloud/synchthing) A fully legal (wink) replacement for video subscription services Notes Maps Books Calendar Contacts Mail Bookmarks LLM chatbot  For these things you can either use the cloud or build a homelab.</description>
+      <description>&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/live/5i9chZj3bRo?feature=shared&#34; target=&#34;_blank&#34;&gt;Recording&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/docs/platform-engineering-in-the-homelab.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;notes&#34;&gt;Notes:&lt;/h1&gt;&#xA;&lt;p&gt;Disclaimer: this is just a quick outline I used for presenting and may contain errors&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-self-hosting-and-why-to-do-it&#34;&gt;What is self-hosting and why to do it&lt;/h2&gt;&#xA;&lt;p&gt;Self-hosting is running your own services for personal use.&lt;/p&gt;&#xA;&lt;p&gt;Why:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Your data is yours&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s a fun hobby if you are a nerd&lt;/li&gt;&#xA;&lt;li&gt;Learn about service operations or improving your skills&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Example services:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Photos (Immich)&lt;/li&gt;&#xA;&lt;li&gt;Files (Owncloud/nextcloud/synchthing)&lt;/li&gt;&#xA;&lt;li&gt;A fully legal (wink) replacement for video subscription services&lt;/li&gt;&#xA;&lt;li&gt;Notes&lt;/li&gt;&#xA;&lt;li&gt;Maps&lt;/li&gt;&#xA;&lt;li&gt;Books&lt;/li&gt;&#xA;&lt;li&gt;Calendar&lt;/li&gt;&#xA;&lt;li&gt;Contacts&lt;/li&gt;&#xA;&lt;li&gt;Mail&lt;/li&gt;&#xA;&lt;li&gt;Bookmarks&lt;/li&gt;&#xA;&lt;li&gt;LLM chatbot&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For these things you can either use the cloud or build a homelab. I advocate for a homelab if it&amp;rsquo;s for personal use because that way you truly own the infrastructure while also it&amp;rsquo;s cheaper in the long run (depending on the use case).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A framework for creating value</title>
       <link>/post/value-creation-framework/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>/post/value-creation-framework/</guid>
-      <description>The main goal of someone working in the technology space (or any knowledge worker to be fair) is value creation, either to the organization you are in or to the market. So I&amp;rsquo;ll explain how I&amp;rsquo;m currently thinking about it.
-The framework In my opinion, the process of value creation has the following stages:
-  Step 1: Learning
-Learning is food for our knowledge and skills, which are needed in the next 2 steps.</description>
+      <description>&lt;p&gt;The main goal of someone working in the technology space (or any knowledge worker to be fair) is value creation, either to the organization you are in or to the market. So I&amp;rsquo;ll explain how I&amp;rsquo;m currently thinking about it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-framework&#34;&gt;The framework&lt;/h2&gt;&#xA;&lt;p&gt;In my opinion, the process of value creation has the following stages:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/value-framework.png&#34; alt=&#34;Value generation&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Learning&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Learning is food for our knowledge and skills, which are needed in the next 2 steps. There are many ways of doing it: formal education, experience, reading&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/about/</guid>
-      <description>I&amp;rsquo;m Pablo Gómez-Caldito, I love building tools, products and infrastructure using software. My work experience is mainly in SRE, increasing the reliability of online services and implementing the DevOps philosophy in organizations. I also release Open-Source Software projects and have fun learning about Information Security.
-Currently working as Senior DevOps Engineer at Streamsets and previously at idealista. You can check my resume to learn more.
-Contact Email My email is pablo[at]caldito[dot]me</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Pablo Gómez-Caldito, I love building tools, products and infrastructure using software. My work experience is mainly in SRE, increasing the reliability of online services and implementing the DevOps philosophy in organizations. I also release Open-Source Software projects and have fun learning about Information Security.&lt;/p&gt;&#xA;&lt;p&gt;Currently working as Senior DevOps Engineer at &lt;a href=&#34;https://streamsets.com&#34; target=&#34;_blank&#34;&gt;Streamsets&lt;/a&gt; and previously at &lt;a href=&#34;https://idealista.com&#34; target=&#34;_blank&#34;&gt;idealista&lt;/a&gt;. You can check my &lt;a href=&#34;/docs/resume.pdf&#34; target=&#34;_blank&#34;&gt;resume&lt;/a&gt; to learn more.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;&#xA;&lt;p&gt;My email is pablo[at]caldito[dot]me&lt;/p&gt;&#xA;&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/caldito&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/c4ld1to&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://linkedin.com/in/caldito&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pgp&#34;&gt;PGP&lt;/h3&gt;&#xA;&lt;p&gt;The fingerprint of &lt;a href=&#34;/files/public-key.asc&#34; target=&#34;_blank&#34;&gt;my PGP key&lt;/a&gt; is&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

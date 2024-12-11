@@ -4,21 +4,23 @@
     <title>Talks on caldito.me</title>
     <link>/talks/</link>
     <description>Recent content in Talks on caldito.me</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(Workshop) Reclaiming privacy in the web with Whonix in KVM</title>
+      <link>/talks/reclaiming-privacy-whonix-kvm/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/talks/reclaiming-privacy-whonix-kvm/</guid>
+      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/caldito/whonix-kvm-workshop&#34;&gt;Notes for following the workshop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/docs/reclaiming-privacy-whonix-kvm-slides.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes:&lt;/h2&gt;&#xA;&lt;p&gt;Disclaimer: this is just a quick outline I used for presenting and may contain errors&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h3&gt;&#xA;&lt;h3 id=&#34;2-virtualization-platforms-hypervisors-and-emulators&#34;&gt;2. Virtualization Platforms: Hypervisors and emulators&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hypervisors: hardware virtualization&lt;/strong&gt;&#xA;Virtualize only the Operating system on top of the original hardware&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Type&lt;/li&gt;&#xA;&lt;li&gt;FOSS or not&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Emulators&lt;/strong&gt;&#xA;Virtualize the hardware architecture.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;QEMU quick emulator. Open source and 7 different architectures&lt;/li&gt;&#xA;&lt;li&gt;Useful for gaming and virtualising legacy hardware&lt;/li&gt;&#xA;&lt;li&gt;Rosetta: very relevant in apple devices with ARM architecture. M1, M2, M3, M4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-qemu-and-kvm&#34;&gt;3. QEMU and KVM&lt;/h3&gt;&#xA;&lt;p&gt;Free and open source virtualization platform&#xA;KVM -&amp;gt; manages CPU, memory and disk&#xA;Qemu -&amp;gt; Emulates hardware devices: display, network interfaces, peripherals&amp;hellip;&#xA;QEMU/KVM&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Platform Engineering in the Homelab</title>
       <link>/talks/platform-engineering-in-the-homelab/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>/talks/platform-engineering-in-the-homelab/</guid>
-      <description>Resources  Recording Slides  Notes: Disclaimer: this is just a quick outline I used for presenting and may contain errors
-What is self-hosting and why to do it Self-hosting is running your own services for personal use.
-Why:
- Your data is yours It&amp;rsquo;s a fun hobby if you are a nerd Learn about service operations or improving your skills  Example services:
- Photos (Immich) Files (Owncloud/nextcloud/synchthing) A fully legal (wink) replacement for video subscription services Notes Maps Books Calendar Contacts Mail Bookmarks LLM chatbot  For these things you can either use the cloud or build a homelab.</description>
+      <description>&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/live/5i9chZj3bRo?feature=shared&#34; target=&#34;_blank&#34;&gt;Recording&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/docs/platform-engineering-in-the-homelab.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;notes&#34;&gt;Notes:&lt;/h1&gt;&#xA;&lt;p&gt;Disclaimer: this is just a quick outline I used for presenting and may contain errors&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-self-hosting-and-why-to-do-it&#34;&gt;What is self-hosting and why to do it&lt;/h2&gt;&#xA;&lt;p&gt;Self-hosting is running your own services for personal use.&lt;/p&gt;&#xA;&lt;p&gt;Why:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Your data is yours&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s a fun hobby if you are a nerd&lt;/li&gt;&#xA;&lt;li&gt;Learn about service operations or improving your skills&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Example services:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Photos (Immich)&lt;/li&gt;&#xA;&lt;li&gt;Files (Owncloud/nextcloud/synchthing)&lt;/li&gt;&#xA;&lt;li&gt;A fully legal (wink) replacement for video subscription services&lt;/li&gt;&#xA;&lt;li&gt;Notes&lt;/li&gt;&#xA;&lt;li&gt;Maps&lt;/li&gt;&#xA;&lt;li&gt;Books&lt;/li&gt;&#xA;&lt;li&gt;Calendar&lt;/li&gt;&#xA;&lt;li&gt;Contacts&lt;/li&gt;&#xA;&lt;li&gt;Mail&lt;/li&gt;&#xA;&lt;li&gt;Bookmarks&lt;/li&gt;&#xA;&lt;li&gt;LLM chatbot&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For these things you can either use the cloud or build a homelab. I advocate for a homelab if it&amp;rsquo;s for personal use because that way you truly own the infrastructure while also it&amp;rsquo;s cheaper in the long run (depending on the use case).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

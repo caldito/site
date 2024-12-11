@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" href="/images/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Caldito&#39;s site">
+    <title>(Workshop) Reclaiming privacy in the web with Whonix in KVM | caldito.me</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/caldito.me</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/post/">~/writing</a>
+      </li>
+      
+      
+      <li class="pull-left current">
+        <a href="/talks">~/talks</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/about">~/about</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/docs/resume.pdf">~/resume</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="https://github.com/caldito">~/github</a>
+      </li>
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/rss</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div>
+<h1><span class="title">(Workshop) Reclaiming privacy in the web with Whonix in KVM</span></h1>
+Published on 2024/12/11
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<div class="content-wrapper">
+  <main>
+    <h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/caldito/whonix-kvm-workshop">Notes for following the workshop</a></li>
+<li><a href="/docs/reclaiming-privacy-whonix-kvm-slides.pdf">Slides</a></li>
+</ul>
+<h2 id="notes">Notes:</h2>
+<p>Disclaimer: this is just a quick outline I used for presenting and may contain errors</p>
+<h3 id="1-introduction">1. Introduction</h3>
+<h3 id="2-virtualization-platforms-hypervisors-and-emulators">2. Virtualization Platforms: Hypervisors and emulators</h3>
+<p><strong>Hypervisors: hardware virtualization</strong>
+Virtualize only the Operating system on top of the original hardware</p>
+<ul>
+<li>Type</li>
+<li>FOSS or not</li>
+</ul>
+<p><strong>Emulators</strong>
+Virtualize the hardware architecture.</p>
+<ul>
+<li>QEMU quick emulator. Open source and 7 different architectures</li>
+<li>Useful for gaming and virtualising legacy hardware</li>
+<li>Rosetta: very relevant in apple devices with ARM architecture. M1, M2, M3, M4</li>
+</ul>
+<h3 id="3-qemu-and-kvm">3. QEMU and KVM</h3>
+<p>Free and open source virtualization platform
+KVM -&gt; manages CPU, memory and disk
+Qemu -&gt; Emulates hardware devices: display, network interfaces, peripherals&hellip;
+QEMU/KVM</p>
+<h3 id="4-privacy-oss">4. Privacy OSs</h3>
+<ul>
+<li>tails: amnesic operating system</li>
+<li>whonix: is the one</li>
+<li>QubesOS</li>
+</ul>
+<h3 id="5-whonix">5. Whonix</h3>
+<ul>
+<li>OSS</li>
+<li>Sweet network isolation and ease to use.</li>
+<li>Different setups: VBox, KVM, qubesos</li>
+</ul>
+<h3 id="6-tor-network">6. Tor Network</h3>
+<p>Logo is an onion because the traffic is encrypted in layers.
+No intermediate node knows:</p>
+<ul>
+<li>the client</li>
+<li>the server
+Not only Privacyfocused Operating Systems but also the tor browser is enough</li>
+</ul>
+<h3 id="7-hands-on-installing-whonix-on-qemukvm">7. Hands-on: Installing Whonix on QEMU/KVM</h3>
+<p>Detailed on the readme and slides</p>
+
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      © 2024 Caldito <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+      
+    </footer>
+  </body>
+</html>
+
