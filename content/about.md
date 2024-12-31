@@ -3,9 +3,9 @@ draft: false
 title: About
 ---
 
-I'm Pablo Gómez-Caldito, I love building tools, products and infrastructure using software. My work experience is mainly in SRE, increasing the reliability of online services and implementing the DevOps philosophy in organizations. I also release Open-Source Software projects and have fun learning about Information Security.
+I'm Pablo Gómez-Caldito, I love building tools, products and infrastructure using software. My work experience is mainly in SRE/Platform Engineering, increasing the reliability of online services and implementing the DevOps philosophy in organizations. I also release OSS projects, practice self-hosting in my homelab and have fun learning about Information Security.
 
-Currently working as Senior DevOps Engineer at <a href="https://streamsets.com" target="_blank">Streamsets</a> and previously at <a href="https://idealista.com" target="_blank">idealista</a>. You can check my <a href="/docs/resume.pdf" target="_blank">resume</a> to learn more.
+You can check my <a href="/docs/resume.pdf" target="_blank">resume</a> to learn more about my experience.
 
 ## Contact
 
