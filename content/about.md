@@ -14,7 +14,7 @@ My email is pablo[at]caldito[dot]me
 
 ### Other
 - <a href="https://github.com/caldito" target="_blank">GitHub</a>
-- <a href="https://twitter.com/c4ld1to" target="_blank">Twitter</a>
+- <a href="https://twitter.com/pgcaldito" target="_blank">Twitter</a>
 - <a href="https://linkedin.com/in/caldito" target="_blank">LinkedIn</a>.
 
 ### PGP
